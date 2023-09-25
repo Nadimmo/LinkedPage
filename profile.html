@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-left">
+            <a href="index.html" class="logo"> <img src="logo.png" ></a>
+            <div class="search-box">
+                <img src="search.png">
+                <input type="text " placeholder="search">
+            </div>
+        </div>
+        <div class="navbar-center">
+            <ul>
+                <li><a href="#" class="active-links"><img src="home.png"><span>Home</span></a></li>
+                <li><a href="#"><img src="network.png"><span>My Network</span></a></li>
+                <li><a href="#"><img src="jobs.png"><span>Jobs</span></a></li>
+                <li><a href="#"><img src="message.png"><span>Messaging</span></a></li>
+                <li><a href="#"><img src="notification.png"><span>Notifications</span></a></li>
+            </ul>
+        </div>
+        <div class="navbar-right">
+            <div class="online">
+            <img src="user-1.png" class="nav-profile-img" onclick="toggleMenu()">
+            </div>
+        </div>
+         <!-- ......profile-drop-down-menu....... -->
+         <div class="profile-menu-wrap" id="profileMenu">
+            <div class="profile-menu">
+                <div class="user-info">
+                    <img src="user-1.png">
+                    <div>
+                        <h3>Rayan Walton</h3>
+                        <a href="#">See your profile</a>
+                    </div>
+                </div>
+                <hr>
+                <a href="#" class="profile-menu-link">
+                    <img src="feedback.png">
+                    <p>Give Feedback</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                    <img src="setting.png">
+                    <p>Settings & Priviacy</p>
+                    <span>></span>
+                </a> <a href="#" class="profile-menu-link">
+                    <img src="help.png">
+                    <p>Help & Support</p>
+                    <span>></span>
+                </a> <a href="#" class="profile-menu-link">
+                    <img src="display.png">
+                    <p>Display & Accessiblity</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                    <img src="logout.png">
+                    <p>Logout</p>
+                    <span>></span>
+                </a>
+            </div>
+         </div>
+    </nav>
+<!-- /* ..........navbar end............... */ -->
+
+<div class="container">
+    <!-- ...........profile-main......... -->
+    <div class="profile-main">
+        <div class="profile-container">
+            <img src="cover-pic.png" width="100%">
+            <div class="profile-container-inner">
+                <img src="user-1.png" class="profile-pic">
+                <h1>Rayan Walton</h1>
+                <b>Web Developer at Microsoft | Former developer at DataStack and Intern at Oracle</b>
+                <p>San Francisco, United States &middot; <a href="#">Contact info</a></p>
+                <div class="mutual-connection">
+                    <img src="user-2.png">
+                    <span>1 mutual connection: Orlando Diggs</span>
+                </div>
+                <div class="profile-btn">
+                    <a href="#" class="primery-btn"><img src="connect.png"> Connect</a>
+                    <a href="#"><img src="chat.png"> Message</a>
+                </div>
+            </div>
+        </div>
+        <div class="profile-description">
+            <h2>About</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit commodi doloremque harum temporibus, dolorem quas perferendis repellendus nam incidunt nobis pariatur earum necessitatibus veniam quisquam in nostrum rerum minima? Adipisci.</p>
+            <a href="#" class="see-more-link">See more...</a>
+            <div class="profile-description">
+                <div class="profile-desc-row">
+                    <img src="microsoft.png">
+                    <div>
+                        <h3>Lead Front-End Developer</h3>
+                        <b>Microsoft &middot; Full-tim</b>
+                        <b>Feb 2021 - Present &middot; 1.5 years</b>
+                        <p>Computer programming is the process of performing particular computation, usually by designing and building and executable computer progrm.</p>
+                        <hr>
+                    </div>
+                </div>
+            </div>
+            <div class="profile-description">
+                <div class="profile-desc-row">
+                    <img src="slack.png">
+                    <div>
+                        <h3>Full Stack Developer</h3>
+                        <b>Slack&middot; Full-tim</b>
+                        <b>Jun 2018 - Jan 2021 &middot; 2.6 years</b>
+                        <p>Computer programming is the process of performing particular computation, usually by designing and building and executable computer progrm.</p>
+                        <hr>
+                    </div>
+                </div>
+            </div>
+            <div class="profile-description">
+                <div class="profile-desc-row">
+                    <img src="google.png">
+                    <div>
+                        <h3>Web Developer</h3>
+                        <b>Google Inc &middot; Full-tim</b>
+                        <b>Sept 2015 - May 2018 &middot; 2.8 years</b>
+                        <p>Computer programming is the process of performing particular computation, usually by designing and building and executable computer progrm.</p>
+                    </div>
+                </div>
+                <hr>
+                <a href="#" class="experiences-link">Show all 7 experiences <img src="right-arrow.png"></a>
+            </div>
+        </div>
+        <div class="profile-description">
+            <h2>Education</h2>
+            <div class="profile-desc-row">
+                <img src="stanford.png">
+                <div>
+                    <h3>Stanford University</h3>
+                    <b>BSEE, Electrical Enginnering</b>
+                    <b>2018 - 2022</b>
+                    <hr>
+                </div>
+            </div>
+            <div class="profile-desc-row">
+                <img src="north.png">
+                <div>
+                    <h3>Northwestern University</h3>
+                    <b>Computer Science</b>
+                    <b>2015 - 2018</b>
+                    <hr>
+                </div>
+            </div>
+            <div class="profile-desc-row">
+                <img src="mit.png">
+                <div>
+                    <h3>MIT University</h3>
+                    <b>Senior High School</b>
+                    <b>2005 - 2015</b>
+                </div>
+            </div>
+        </div>
+        <div class="profile-description">
+            <h2>Skills</h2>
+            <a href="#" class="skills-btn">Leadership</a>
+            <a href="#" class="skills-btn">Web Design</a>
+            <a href="#" class="skills-btn">Development</a>
+            <a href="#" class="skills-btn">Communication</a>
+            <a href="#" class="skills-btn">UI/UX</a>
+            <a href="#" class="skills-btn">Planning</a>
+            <a href="#" class="skills-btn">Coding</a>
+            <a href="#" class="skills-btn">JavaScript</a>
+            <a href="#" class="skills-btn">Python</a>
+            <a href="#" class="skills-btn">Enterprenuorship</a>
+        </div>
+        <div class="profile-description">
+            <h2>Languages</h2>
+            <a href="#" class="languages-btn">English</a>
+            <a href="#" class="languages-btn">Hindi</a>
+            <a href="#" class="languages-btn">Bangla</a>
+        </div>
+    </div>
+    <!-- ......profile-sidebar....... -->
+    <div class="profile-sidebar">
+        <div class="sidebar-ad">
+            <small>Add &middot; &middot; &middot;</small>
+            <p>Master the 5 priciples of web design</p>
+            <div>
+                <img src="user-1.png ">
+                <img src="mi-logo.png">
+            </div>
+            <b>Brand and Demad in Xiaomi</b>
+            <a href="#" class="ad-link">Learn More</a>
+        </div>
+        <div class="sidebar-people">
+            <h3>People you may know</h3>
+            <div class="sidebar-people-row">
+                <img src="user-2.png" >
+                <div>
+                    <h2>Tony Stack</h2>
+                    <p>Head of Adveenger Ltd.</p>
+                    <a href="#">Connect</a>
+                </div>
+            </div>
+            <div class="sidebar-people-row">
+                <img src="user-1.png" >
+                <div>
+                    <h2>Mishra</h2>
+                    <p>Head of Marketing at Flipkart</p>
+                    <a href="#">Connect</a>
+                </div>
+            </div>
+            <div class="sidebar-people-row">
+                <img src="user-4.png" >
+                <div>
+                    <h2>Missalaia</h2>
+                    <p>Head of Marketing at Tomato Ltd.</p>
+                    <a href="#">Connect</a>
+                </div>
+            </div>
+            <div class="sidebar-people-row">
+                <img src="user-5.png" >
+                <div>
+                    <h2>Walton Marque</h2>
+                    <p>Head of Marketing at Himayliay</p>
+                    <a href="#">Connect</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ......profile-footer...... -->
+
+<div class="profile-footer">
+    <div class="sidebar-useful-links">
+                <a href="#">About</a>
+                <a href="#">Accessiblity</a>
+                <a href="#">Help Center</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Advertising</a>
+                <a href="#">Get the App</a> 
+                <a href="#">More</a>
+
+                <div class="copyright-msg">
+                    <img src="logo.png">
+                    <p>Linkedup &#169; All reserved by Nadim Mostofa</p>
+                </div>
+            </div>
+
+</div>
+
+
+<!-- ,,,,,,,,,,,,JavaScript part.............. -->
+    <script>
+        let profileMenu = document.getElementById('profileMenu')
+
+        function toggleMenu(){
+            profileMenu.classList.toggle("open-menu")
+        }
+    </script>
+</body>
+</html>
